@@ -1,7 +1,7 @@
 import time
 
 out_dir = 'out-geografia'
-eval_interval = 10
+eval_interval = 50
 eval_iters = 50
 wandb_log = False # feel free to turn on
 wandb_project = 'geografia'
