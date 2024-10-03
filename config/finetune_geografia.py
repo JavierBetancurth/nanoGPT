@@ -1,8 +1,8 @@
 import time
 
 out_dir = 'out-geografia'
-eval_interval = 5
-eval_iters = 40
+eval_interval = 10
+eval_iters = 50
 wandb_log = False # feel free to turn on
 wandb_project = 'geografia'
 wandb_run_name = 'ft-' + str(time.time())
