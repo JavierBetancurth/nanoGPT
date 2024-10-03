@@ -13,11 +13,10 @@ import pandas as np
 #         f.write(requests.get(data_url).text)
 
 
-# with open(input_file_path, 'r', encoding='utf-8') as f:
-#     data = f.read()
+input_file_path = os.path.join(os.path.dirname(__file__), 'geographic_data.txt')
 
-
-df = pd.read_excel(r'C:\Users\analistadatos3\Downloads\Geografia\Clasificador Geográfico.xlsx')
+with open(input_file_path, 'r', encoding='utf-8') as f:
+  data = f.read()
 
 n = len(data)
 train_data = data[:int(n*0.9)]
